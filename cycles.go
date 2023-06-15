@@ -4,7 +4,6 @@ import "fmt"
 
 func main() {
 	var room = "пещера"
-
 	if room == "пещера" {
 		fmt.Println("Вы находитесь в тускло освещенной пещере.")
 	} else if room == "вход" {
@@ -14,5 +13,4 @@ func main() {
 	} else {
 		fmt.Println("Здесь ничего нет.")
 	}
-
 }
